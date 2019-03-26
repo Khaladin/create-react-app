@@ -1,12 +1,9 @@
 {
-  "name": "react-scripts",
-  "version": "3.0.1",
-  "description": "Configuration and scripts for Create React App.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
-    "directory": "packages/react-scripts"
-  },
+
+  "name": "corys-react-scripts",
+  "version": "0.1.0",
+  "description": "Cory Configuration and scripts for Create React App.",
+  "repository": "Khaladin/create-react-app",
   "license": "MIT",
   "engines": {
     "node": ">=8.10"
