@@ -5,9 +5,9 @@ import './App.css';
 class App extends Component {
   getEnvValues() {
     if (!process.env.REACT_APP_CREATOR_NAME) {
-      throw new Error('Please define `REACT_APP_EMPLOYEE_NAME`');
+      throw new Error('Please define `REACT_APP_CREATOR_NAME`');
     }
-    const creatorName = process.env.REACT_APP_EMPLOYEE_NAME
+    const creatorName = process.env.REACT_APP_CREATOR_NAME
   
     return { creatorName };
   }
@@ -20,7 +20,7 @@ class App extends Component {
           <h2>Welcome to Hoban dev!</h2>
         </div>
         <p className="App-intro">
-          <b> Employee Name: { employeeName } </b><br/><br/>
+          <b> Employee Name: { creatorName } </b><br/><br/>
           <b> Position: Rockstar</b>
         </p>
       </div>
